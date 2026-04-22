@@ -1,0 +1,12 @@
+name: Docs Style Check
+
+on:
+  workflow_dispatch:
+
+jobs:
+  docs-style-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder
+        run: echo "TODO: implement docs style check workflow"
+

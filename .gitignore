@@ -17,3 +17,81 @@ CMakeUserPresets.json
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #cmake-build-*
+
+/target/
+/Cargo.lock
+
+
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+package-lock.json
+yarn.lock
+
+# builds
+build
+coverage
+dist
+dist-ts
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.next
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.history
+size-plugin.json
+stats-hydration.json
+stats.json
+stats.html
+.vscode/settings.json
+.vscode/mcp.json
+.cursor/rules
+.github/instructions/nx.instructions.md
+
+*.log
+*.tsbuildinfo
+.angular
+.cache
+.idea
+.nx/cache
+.nx/workspace-data
+.pnpm-store
+.svelte-kit
+.tsup
+.vinxi
+temp
+
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+test-traces
+**/adapters/output
+.nitro
+.output
+
+# Playwright
+playwright-report
+test-results
+
+solo.yml
+.structured-output-skills
+
+STATUS_*.md
+
+# models-eval run artifacts (full candidate/gold text per model)
+packages/typescript/ai-code-mode/models-eval/log/
+
+.skills
+docs/superpowers
+# Only .claude.settings.json should be committed
+.claude/settings.local.json
+.claude/worktrees/*
+solo.yml

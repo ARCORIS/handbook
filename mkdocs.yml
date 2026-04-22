@@ -1,0 +1,6 @@
+site_name: ARCORIS Handbook
+site_description: Canonical operational handbook for ARCORIS
+docs_dir: docs
+theme:
+  name: mkdocs
+
